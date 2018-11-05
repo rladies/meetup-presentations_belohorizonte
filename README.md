@@ -7,13 +7,13 @@ R-Ladies Belo Horizonte foi fundado em abril de 2018.
 ## Meetups (Ordem Decrescente)
 1. **2º Meetup do R-Ladies Belo Horizonte** - *10 de Novembro de 2018, 13:00 hs.*
       - Apresentado por [Marcella Gutierrez](https://www.linkedin.com/in/marcella-gutierrez/).
-          * [As Mulheres na Tecnologia e o Labirinto](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/09062018_PrimeiroMeetup/PollyannaGoncalves_Conhecendo-o-R.pdf)
+          * [As Mulheres na Tecnologia e o Labirinto](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/)
       - Apresentado por [Cacau Rodrigues](https://www.linkedin.com/in/claudiane-rodrigues-a670b2ba/).
-          * [Sistema de Recomendação - Aplicando Fatoração de Matrizes em SR](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/09062018_PrimeiroMeetup/FrancielleVargas_Python-Linguagem-Natural.pdf)
+          * [Sistema de Recomendação - Aplicando Fatoração de Matrizes em SR](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/)
       - Apresentado por [Luana Sílvia](https://www.linkedin.com/in/luana-s%C3%ADlvia-dos-santos/).
-          * [Aprendendo sobre o DPLYR - Como o DPLYR pode ser eficiente e intuitivo](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/09062018_PrimeiroMeetup/BarbaraAndrade_Empreendendorismo-Feminino.pdf)
+          * [Aprendendo sobre o DPLYR - Como o DPLYR pode ser eficiente e intuitivo](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/DPLYR_LuanaSilvia.pdf)
       - Apresentado por [Erica Castilho Rodrigues](https://www.linkedin.com/in/erica-castilho-rodrigues-6157152a/).
-          * [Faça o SHINY brilhar! - Desenvolvimento de aplicações web usando o R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/09062018_PrimeiroMeetup/BarbaraAndrade_Empreendendorismo-Feminino.pdf)
+          * [Faça o SHINY brilhar! - Desenvolvimento de aplicações web usando o R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/)
           
 2. **1º Meetup do R-Ladies Belo Horizonte** - *09 de Junho de 2018, 13:00 hs.*
       - Apresentado por [Layla Comparin](https://rladies.org/brazil-rladies/name/layla-comparin/), [Numiá Gomes](https://rladies.org/brazil-rladies/name/numia-gomes/) e [Larissa Fernandes](https://rladies.org/brazil-rladies/name/larissa-fernandes/).

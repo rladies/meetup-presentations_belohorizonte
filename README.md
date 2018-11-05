@@ -5,7 +5,7 @@
 R-Ladies Belo Horizonte foi fundado em abril de 2018.
 
 ## Meetups (Ordem Decrescente)
-**2º Meetup do R-Ladies Belo Horizonte**
+1. **2º Meetup do R-Ladies Belo Horizonte**
       - *10 de Novembro de 2018, 13:00 hs.*
        - Apresentado por [Marcella Gutierrez](https://www.linkedin.com/in/marcella-gutierrez/).
           * [As Mulheres na Tecnologia e o Labirinto](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/09062018_PrimeiroMeetup/PollyannaGoncalves_Conhecendo-o-R.pdf)
@@ -16,7 +16,7 @@ R-Ladies Belo Horizonte foi fundado em abril de 2018.
       - Apresentado por [Erica Castilho Rodrigues](https://www.linkedin.com/in/erica-castilho-rodrigues-6157152a/).
           * [Faça o SHINY brilhar! - Desenvolvimento de aplicações web usando o R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/09062018_PrimeiroMeetup/BarbaraAndrade_Empreendendorismo-Feminino.pdf)
           
-**1º Meetup do R-Ladies Belo Horizonte**
+2. **1º Meetup do R-Ladies Belo Horizonte**
       - *09 de Junho de 2018, 13:00 hs.*
       - Apresentado por [Layla Comparin](https://rladies.org/brazil-rladies/name/layla-comparin/), [Numiá Gomes](https://rladies.org/brazil-rladies/name/numia-gomes/) e [Larissa Fernandes](https://rladies.org/brazil-rladies/name/larissa-fernandes/).
           * [Bem Vindas!](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/09062018_PrimeiroMeetup/FirstMeetup-BH.pdf)

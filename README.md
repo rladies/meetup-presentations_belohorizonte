@@ -13,7 +13,7 @@ R-Ladies Belo Horizonte foi fundado em abril de 2018.
       - Apresentado por [Luana Sílvia](https://www.linkedin.com/in/luana-s%C3%ADlvia-dos-santos/).
           * [Aprendendo sobre o DPLYR - Como o DPLYR pode ser eficiente e intuitivo](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/DPLYR_LuanaSilvia.pdf)
       - Apresentado por [Erica Castilho Rodrigues](https://www.linkedin.com/in/erica-castilho-rodrigues-6157152a/).
-          * [Faça o SHINY brilhar! - Desenvolvimento de aplicações web usando o R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/)
+          * [Faça o SHINY brilhar! - Desenvolvimento de aplicações web usando o R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/ApresentacaoErica_v2.pdf)
           
 2. **1º Meetup do R-Ladies Belo Horizonte** - *09 de Junho de 2018, 13:00 hs.*
       - Apresentado por [Layla Comparin](https://rladies.org/brazil-rladies/name/layla-comparin/), [Numiá Gomes](https://rladies.org/brazil-rladies/name/numia-gomes/) e [Larissa Fernandes](https://rladies.org/brazil-rladies/name/larissa-fernandes/).

@@ -9,7 +9,7 @@ R-Ladies Belo Horizonte foi fundado em abril de 2018.
       - Apresentado por [Marcella Gutierrez](https://www.linkedin.com/in/marcella-gutierrez/).
           * [As Mulheres na Tecnologia e o Labirinto](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/MulheresNaTecnologia-Marcella.pdf)
       - Apresentado por [Cacau Rodrigues](https://www.linkedin.com/in/claudiane-rodrigues-a670b2ba/).
-          * [Sistema de Recomendação - Aplicando Fatoração de Matrizes em SR](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/)
+          * [Sistema de Recomendação - Aplicando Fatoração de Matrizes em SR](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/cacau.pdf)
       - Apresentado por [Luana Sílvia](https://www.linkedin.com/in/luana-s%C3%ADlvia-dos-santos/).
           * [Aprendendo sobre o DPLYR - Como o DPLYR pode ser eficiente e intuitivo](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/10112018_SegundoMeetup/DPLYR_LuanaSilvia.pdf)
       - Apresentado por [Erica Castilho Rodrigues](https://www.linkedin.com/in/erica-castilho-rodrigues-6157152a/).

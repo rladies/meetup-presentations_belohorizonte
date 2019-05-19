@@ -5,7 +5,7 @@
 R-Ladies Belo Horizonte foi fundado em abril de 2018.
 
 ## Meetups (Ordem Decrescente)
-1. **Meetup dE 1 Ano do R-Ladies Belo Horizonte** - *18 de Maio de 2019, 13:00 hs.*
+1. **Meetup de 1 Ano do R-Ladies Belo Horizonte** - *18 de Maio de 2019, 13:00 hs.*
       - Apresentado por [Layla Comparin](https://www.linkedin.com/in/laylacomparin/).
           * [1 ano R-Ladies Belo Horizonte](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/1ANO.pdf)
       - Apresentado por [Larissa Sayuri](https://www.linkedin.com/in/larissa-sayuri-b4aa83a4/).

@@ -13,7 +13,8 @@ R-Ladies Belo Horizonte foi fundado em abril de 2018.
       - Apresentado por [Letícia Nunes](https://www.linkedin.com/in/leticia-nunes-26b595a9/).
           * [Protegendo a confidencialidade dos dados](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/LETICIANUNES.pptx)
       - Apresentado por [Isadora Lara](https://www.linkedin.com/in/isadoraflara/).
-          * [Mercado Financeiro com R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/ISADORALARA.pptx)
+          * [Mercado Financeiro com R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/ISADORALARA.pptx) 
+          * [Código](https://github.com/Doraflara/financas-r)
       - Apresentado por [Sarah Ribeiro](https://www.linkedin.com/in/sarahribeirosilva/).
           * [Machine Learning Para Descoberta De Músicas No Spotify](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/SARAHRIBEIRO.pptx)
       - Apresentado por [Maira Reis](https://www.linkedin.com/in/reismaira/).

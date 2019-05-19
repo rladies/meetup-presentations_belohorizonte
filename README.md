@@ -11,7 +11,7 @@ R-Ladies Belo Horizonte foi fundado em abril de 2018.
       - Apresentado por [Larissa Sayuri](https://www.linkedin.com/in/larissa-sayuri-b4aa83a4/).
           * [word2vec: um gostinho de NLP atual e criativo](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/LARISSASAYURI.pdf)
       - Apresentado por [Letícia Nunes](https://www.linkedin.com/in/leticia-nunes-26b595a9/).
-          * [Protegendo a confidencialidade dos dados](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/118052019_1ANO/LETICIANUNES.pptx)
+          * [Protegendo a confidencialidade dos dados](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/LETICIANUNES.pptx)
       - Apresentado por [Isadora Lara](https://www.linkedin.com/in/isadoraflara/).
           * [Mercado Financeiro com R](https://github.com/rladies/meetup-presentations_belohorizonte/blob/master/18052019_1ANO/ISADORALARA.pptx)
       - Apresentado por [Sarah Ribeiro](https://www.linkedin.com/in/sarahribeirosilva/).

@@ -61,6 +61,8 @@ dados <- data.frame(
 
 dados
 
+
+
 # Algumas funções úteis:
   
   #head() - Mostra as primeiras 6 linhas.
@@ -106,19 +108,19 @@ summary(dados)
 dados
 dados[3, 2]     #seleciona a terceira linha da segunda coluna
 dados[3:5, 2]   #seleciona da terceira a quinta linha da segunda coluna
-dados[6, 2:4]
+dados[6, 2:4]   #Seleciona a sexta linha e as colunas de 2 a 4 
 
 dados[1,]      #Seleciona a primeira linha 
-dados[,1]    #seleciona a primeira coluna 
+dados[,1]     #seleciona a primeira coluna 
 
 #Podemos fazer, similar à operação com matrizes, a seleção de algumas colunas  e linhas utilizando os nomes. 
 
 dados[ ,c("nome", "sexo", "uf")]
 dados[ ,c("peso")]
 
-dados[c("peso"),] #Porque nao funciona? 
+rownames(dados)
 
-dados[1,] #As linhas nao tem nome 
+dados[c("1"),] 
 
 # As funções colnames e rownames funcionam assim como nas matrizes 
 rownames(dados) = c("Aluno1","Aluno2","Aluno3","Aluno4","Aluno5","Aluno6" )

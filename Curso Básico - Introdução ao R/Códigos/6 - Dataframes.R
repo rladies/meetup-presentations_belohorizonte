@@ -62,7 +62,6 @@ dados <- data.frame(
 dados
 
 
-
 # Algumas funções úteis:
   
   #head() - Mostra as primeiras 6 linhas.
@@ -83,10 +82,43 @@ head(dados,2)
 
 str(dados)
 
+
 # Analisando o resultado da função, podemos verificar que nosso data frame possui 
 # 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, 
 # respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. 
 # Podemos facilmente constatar que quatro das nossas variáveis são numéricas, três são fatores e uma lógica.
+
+
+# Frequentemente determinada variável não está com o tipo de dado que desejamos. 
+# Às vezes é necessário converter uma variável do tipo texto em fator, ou uma variável numérica em texto, por exemplo. 
+#Isso faz todo sentido quando queremos manter um padrão em diferentes data frames. 
+
+dados$nome #variavel deveria ser texto ao inves de fator 
+str(dados$nome)
+dados$nome = as.character(dados$nome)
+
+str(dados)
+
+#Vimos que em nosso data frame dados todas as variáveis, que não são numéricas ou lógicas, 
+#estão como fator. Isso se deve especificamente ao fato do argumento stringsAsFactors estar, 
+# por padrão, com o valor TRUE. Logo, todo dado tipo texto será convertido 
+#para fator já na criação do nosso objeto.
+
+dados =  data.frame(
+  nome = c("João", "Pedro", "Amanda", "Fábio", "Fernanda", "Gustavo"),
+  altura = c(1.80, 1.77, 1.71, 1.65, 1.66, 1.63),
+  idade = c(22, 21, 18, 20, 23, 19),
+  sexo = c("masculino", "masculino", "feminino", "masculino", "feminino", "masculino"),
+  peso = c(78.3, 82.1, 66.5, 88.1, 58, 75.4),
+  fumante = c(TRUE, FALSE, FALSE, FALSE, TRUE, FALSE),
+  uf = c("PB", "AL", "PE", "PE", "SP", "CE"),
+  renda = c(2, 5, 10, 20, 10, NA),
+  stringsAsFactors = FALSE
+)
+
+dados
+str(dados)
+
 
 # Assim como nas matrizes, verificar o tamanho dos dataframes de diversas maneiras
 # (mas o comando "length" nao funciona):
@@ -112,6 +144,7 @@ dados[6, 2:4]   #Seleciona a sexta linha e as colunas de 2 a 4
 
 dados[1,]      #Seleciona a primeira linha 
 dados[,1]     #seleciona a primeira coluna 
+
 
 #Podemos fazer, similar à operação com matrizes, a seleção de algumas colunas  e linhas utilizando os nomes. 
 
@@ -207,60 +240,36 @@ rowMeans(var_numericas)
 
 # O processo para criar novas variáveis (colunas) em data frames é igualmente simples a outras operações. 
 
-dados$serie <- '2º Ano do Ensino Médio'
+dados$serie <- '2º Ano do Ensino Médio' # Criando uma variavel 
 dados
 
-dados$altura = dados$altura^2
+dados$altura = dados$altura^2           # Substituindo uma variavel
 dados
 
-#Para acrescentar novas informações aos bancos de dados, podemos usa  os comandos rbind()
+#Para acrescentar novas informações aos bancos de dados, podemos usar  os comandos rbind()
 #para acrescentar linhas e cbind() para acrescentar colunas
 
 ativ_fisica = c("Sim","Sim",'Não', 'Sim', 'Não','Não')
+
 dados = cbind(dados,ativ_fisica)
 dados
 
 Fabiana = c('Fabiana', 1.72, 25, 'feminino', 69, TRUE, 'MG', 5, 'Sim')
 
 dados = rbind(dados,Fabiana)
+dados
 
+# Removendo variaveis 
 
-##########################################################################################
-# Convertendo tipos de variáveis
-##########################################################################################
+# Também é possível remover colunas do nosso dataframe
+# A forma mais segura e universal de remover qualquer elemento de um objeto do R 
+# é selecionar tudo exceto aquilo que você não deseja. 
+# Isto é, selecione todas colunas menos as que
+# você não quer e atribua o resultado de volta ao seu data.frame
 
-# Frequentemente determinada variável não está com o tipo de dado que desejamos. 
-# Às vezes é necessário converter uma variável do tipo texto em fator, ou uma variável numérica em texto, por exemplo. 
-#Isso faz todo sentido quando queremos manter um padrão em diferentes data frames. 
-#Vejamos algumas funções importantes para realizar essa tarefa.
-
-str(dados)
-
-dados$nome #variavel deveria ser texto ao inves de fator 
-dados$nome = as.character(dados$nome)
-
-str(dados)
-
-#Vimos que em nosso data frame dados todas as variáveis, que não são numéricas ou lógicas, 
-#estão como fator. Isso se deve especificamente ao fato do argumento stringsAsFactors estar, 
-# por padrão, com o valor TRUE. Logo, todo dado tipo texto será convertido 
-#para fator já na criação do nosso objeto.
-
-dados2 =  data.frame(
-  nome = c("João", "Pedro", "Amanda", "Fábio", "Fernanda", "Gustavo"),
-  altura = c(1.80, 1.77, 1.71, 1.65, 1.66, 1.63),
-  idade = c(22, 21, 18, 20, 23, 19),
-  sexo = c("masculino", "masculino", "feminino", "masculino", "feminino", "masculino"),
-  peso = c(78.3, 82.1, 66.5, 88.1, 58, 75.4),
-  fumante = c(TRUE, FALSE, FALSE, FALSE, TRUE, FALSE),
-  uf = c("PB", "AL", "PE", "PE", "SP", "CE"),
-  renda = c(2, 5, 10, 20, 10, NA),
-  stringsAsFactors = FALSE
-)
-
-dados2
-str(dados2)
-
+dados[,-1] #Removendo a primeira coluna nomes 
+dados[-1,] # Removendo a primeira linha 
+dados[, c(-4, -6)]  #Removendo as colunas 4 e 6 
 
 
 ########################################################################################################################
